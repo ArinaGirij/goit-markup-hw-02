@@ -25,6 +25,9 @@ ul {
 
   letter-spacing: 0.03em;
 }
+.name{
+  color: #fff;
+}
 .site-nav {
   color: #212121;
   font-family: "Roboto", sans-serif;
@@ -40,6 +43,10 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+}
+
+
+
 }
 .hero-title {
   background-color: #2f303a;
@@ -123,12 +130,7 @@ color: #fff;
 font-family: "Roboto", sans-serif;
 font-style: normal;
 Font size: 14px
-line-height: 24px; 
-Line height: 146%;
-Align: Left;
-Vertical-align: Top;
 }
-
 
 
 .footer-title {
@@ -142,7 +144,35 @@ Vertical-align: Top;
 
   letter-spacing: 0.03em;
 }
+
+.footer-nav{
+  color: #757575;
+  background-color: #2F303A;
+  font-family: "Roboto", sans-serif;
+  Font size: 14px
+}
 /* Portfolio 
   primary-text-color: #212121;
   secondary-text-color: #757575;
   accent-color: #2196f3; */
+
+  .portfolio { 
+    background-color: #E5E5E5;
+  }
+  
+  .portfolio-title{
+    X: 215px;
+    Y: 262px;
+  }
+  
+  .img{
+    color: #212121;
+    font-family:"Roboto", sans-serif; 
+    Font style: Bold;
+    font-size: 18px;
+    Line height: 36px;
+    Line height: 171%;
+    Align: Left;
+    Vertical-align: Top;
+    Letter-spacing: 6%
+  }
