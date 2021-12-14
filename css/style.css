@@ -15,11 +15,20 @@ ul {
   list-style: none;
 }
 /* Site nav index html*/
-.site-nav a {
+.site-nav link {
   color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
-.auth-nav a {
+.auth-nav link {
   color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .hero-title {
   background-color: #2f303a;
@@ -32,9 +41,24 @@ ul {
 .feature-list .title {
   color: var(--title-text-color);
 }
-.paragraph {
+.text {
   color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
 }
+
+.team {
+  background-color: #f5f4fa;
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+}
+
 /*Button*/
 .button {
   color: var(--accent-color);
