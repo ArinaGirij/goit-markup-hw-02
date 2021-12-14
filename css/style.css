@@ -13,8 +13,20 @@ ul {
   list-style: none;
 }
 /* Site nav index html*/
+
+.link {
+  color: #2196f3;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
 .site-nav {
-  color: var(--title-text-color);
+  color: #212121;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -31,38 +43,68 @@ ul {
 }
 .hero-title {
   background-color: #2f303a;
+  color: #fff;
   font-family: "Roboto", sans-serif;
-  color: var(--accent-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .section-title {
   font-family: "Roboto", sans-serif;
   color: var(--title-text-color);
+}
+
+.work-title {
+  color: var(--title-text-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /* Feature-list */
 .feature-list .title {
   font-family: "Roboto", sans-serif;
   color: var(--title-text-color);
 }
+
 .text {
+  color: #757575;
   font-family: "Roboto", sans-serif;
-  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
-
   letter-spacing: 0.03em;
 }
 
 .team {
   background-color: #f5f4fa;
-  position: absolute;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
+  color: #212121;
   font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
+.team-title {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /*Button*/
 .button {
   color: var(--accent-color);
@@ -74,6 +116,32 @@ ul {
   color: var(--accent-color);
 }
 /* Footer WebStudio */
+
+.footer {
+background-color: #2F303A;
+color: #fff;
+font-family: "Roboto", sans-serif;
+font-style: normal;
+Font size: 14px
+line-height: 24px; 
+Line height: 146%;
+Align: Left;
+Vertical-align: Top;
+}
+
+
+
+.footer-title {
+  color: #2196f3;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
 /* Portfolio 
   primary-text-color: #212121;
   secondary-text-color: #757575;
