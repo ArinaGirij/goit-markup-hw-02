@@ -4,7 +4,7 @@
   --accent-color: #ffff;
   --bgc: #2196f3;
 }
-.body {
+body {
   background-color: #fff;
   color: #212121;
   font-family: "Roboto", sans-serif;
@@ -161,8 +161,7 @@ Font size: 14px
   }
   
   .portfolio-title{
-    X: 215px;
-    Y: 262px;
+   
   }
   
   .img{
