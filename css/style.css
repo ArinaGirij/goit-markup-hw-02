@@ -21,7 +21,6 @@ ul {
   color: var(--bgc);
    text-decoration: none;
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -77,9 +76,9 @@ text-decoration: none;
   text-transform: uppercase;
 }
 .section-title {
+   color:var(--body-bgc);
   font-family: "Roboto", sans-serif;
-  font-size: ;
-  color: var(--title-text-color);
+  font-size: 36px;
 }
 
 .work-title {
@@ -150,8 +149,9 @@ Font size: 14px
 
 .footer-title {
   color:var(--bgc);
+  text-decoration: none;
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
@@ -160,10 +160,14 @@ Font size: 14px
 }
 
 .footer-nav{
-  color: var(--primary-text-color);
-  background-color: --secondary-bgc;
-  font-family: "Roboto", sans-serif;
-  Font size: 14px
+  color:var(--accent-color);
+text-decoration: none;
+Font family: "Roboto", sans-serif; 
+Font size: 14px;
+Line height: 1.71;
+Align: Left;
+Vertical-align: Top;
+Letter-spacing: 3%;
 }
 /* Portfolio 
   primary-text-color: #212121;
@@ -173,9 +177,16 @@ Font size: 14px
   .portfolio { 
     background-color: var(--body-bgc-index);
   }
-  
-  .portfolio-title{
-   
+
+  .photo{
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.02em;
+
   }
   
   .img{
@@ -188,3 +199,16 @@ Font size: 14px
     Vertical-align: Top;
     Letter-spacing: 6%
   }
+  
+
+  .adress{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    Font family: "Roboto", sans-serif; 
+    font-size: 14px;
+    line-height: 1.71;
+/* or 171% */
+    letter-spacing: 0.03em;
+  }
+
+  
