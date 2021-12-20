@@ -91,7 +91,7 @@ text-decoration: none;
 .work-title {
   color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -100,13 +100,15 @@ text-decoration: none;
 /* Feature-list */
 .feature-list .title {
   font-family: "Roboto", sans-serif;
-  font-size: ;
+  font-weight: 700;
+  font-size: 36px;
   color: var(--title-text-color);
 }
 
 .text {
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
@@ -117,7 +119,7 @@ text-decoration: none;
   background-color: var(--body-bgc);
   color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -127,7 +129,7 @@ text-decoration: none;
 .team-title {
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-weight:700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
