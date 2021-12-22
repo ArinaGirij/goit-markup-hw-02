@@ -8,8 +8,8 @@
   --body-bgc-index:#F5F4FA;
 }
 body {
-  background-color: #fff;
-  color: #212121;
+  background-color: var(--accent-color);
+  color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
 }
 ul {
@@ -68,7 +68,7 @@ text-decoration: none;
 }
 
 
-}
+
 .hero-title {
   background-color: var(--secondary-bgc);
   color: var(--body-bgc);
