@@ -66,9 +66,11 @@ text-decoration: none;
 .auth-nav-link:focus{
   color: #2196f3;
 }
+.hero{
+   background-color: var(--secondary-bgc); 
+}
 
 .hero-title {
-  background-color: var(--secondary-bgc);
   color: var(--body-bgc);
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -86,6 +88,25 @@ text-decoration: none;
   font-size: 36px;
 }
 
+.feature-title{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.feature-text {
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+
 .work-title {
   color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
@@ -96,26 +117,10 @@ text-decoration: none;
   letter-spacing: 0.03em;
 }
 /* Feature-list */
-.feature-list .title {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  color: var(--title-text-color);
-}
-
-.text {
-  color: var(--primary-text-color);
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  /* or 171% */
-  letter-spacing: 0.03em;
-}
 
 .team {
-  background-color: var(--body-bgc);
   color: var(--title-text-color);
+  background-color: var(--body-bgc);
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -125,7 +130,7 @@ text-decoration: none;
 }
 
 .team-title {
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
   font-weight:700;
   font-size: 36px;
@@ -134,12 +139,12 @@ text-decoration: none;
   letter-spacing: 0.03em;
 }
 
-.title{
-color: var(--title-text-color);
-font-family:"Roboto", sans-serif;
+.name{
+  color: var(--title-text-color);
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1,18;
 /* identical to box height */
 
 text-align: center;
@@ -166,6 +171,7 @@ letter-spacing: 0.03em;
 .button.primary {
   background-color: var(--bgc);
   color: var(--accent-color);
+  cursor: pointer;
 }
 /* Footer WebStudio */
 
