@@ -132,7 +132,6 @@ text-transform: uppercase;
   color: var(--title-text-color);
   background-color: var(--body-bgc);
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -144,7 +143,7 @@ text-transform: uppercase;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
-line-height: 1,18;
+line-height: 1.18;
 /* identical to box height */
 
 text-align: center;
@@ -154,7 +153,7 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 font-family: "Roboto", sans-serif;
 font-size: 16px;
-line-height: 1,18;
+line-height: 1.18;
 /* identical to box height */
 
 text-align: center;
@@ -167,7 +166,7 @@ letter-spacing: 0.03em;
   background-color: var(--body-bgc);
 font-weight: 500;
 font-size: 16px;
-line-height: 1,62;
+line-height: 1.62;
 /* identical to box height, or 162% */
 
 text-align: center;
