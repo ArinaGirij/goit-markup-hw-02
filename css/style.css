@@ -45,7 +45,6 @@ ul {
 }
 .site-nav {
   color: var(--title-text-color);
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -54,7 +53,6 @@ ul {
 .site-nav-link{
 color: var(--title-text-color);
 text-decoration: none;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -67,7 +65,6 @@ text-decoration: none;
 .auth-nav-link  {
   color: var(--primary-text-color);
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -83,7 +80,6 @@ text-decoration: none;
 
 .hero-title {
   color: var(--body-bgc);
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -95,12 +91,10 @@ text-decoration: none;
 }
 .section-title {
    color:var(--body-bgc);
-  font-family: "Roboto", sans-serif;
   font-size: 36px;
 }
 
 .feature-title{
-font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 14px;
 line-height: 1,14;
@@ -110,7 +104,6 @@ text-transform: uppercase;
 
 .feature-text {
   color: var(--primary-text-color);
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
@@ -119,7 +112,6 @@ text-transform: uppercase;
 
 .section-title {
   color: var(--title-text-color);
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -131,16 +123,13 @@ text-transform: uppercase;
 .team {
   color: var(--title-text-color);
   background-color: var(--body-bgc);
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .team-title{
   color: var(--title-text-color);
-font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -151,7 +140,6 @@ letter-spacing: 0.03em;
 }
 .team-text{
 color: var(--primary-text-color);
-font-family: "Roboto", sans-serif;
 font-size: 16px;
 line-height: 1.18;
 /* identical to box height */
@@ -172,17 +160,25 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 }
+.button:hover,
+button:focus{
+  color: #2196f3;
+}
 .button.primary {
   background-color: var(--bgc);
   color: var(--accent-color);
   cursor: pointer;
+}
+
+.button.primary:hover,
+.button.primary:focus{
+  
 }
 /* Footer WebStudio */
 
 .footer {
 background-color: var(--secondary-bgc);
 color: var(--body-bgc);
-font-family: "Roboto", sans-serif;
 font-style: normal;
 Font size: 14px
 }
@@ -206,8 +202,7 @@ Font size: 14px
 .footer-nav{
   color:var(--accent-color);
 text-decoration: none;
-font-style: normal;
-Font family: "Roboto", sans-serif; 
+font-style: normal; 
 Font size: 14px;
 Line height: 1.71;
 Align: Left;
@@ -231,8 +226,7 @@ Letter-spacing: 3%;
   .photo{
   color: var(--primary-text-color);
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.02em;
@@ -241,7 +235,6 @@ Letter-spacing: 3%;
   
   .img{
     color: var(--title-text-color);
-    font-family:"Roboto", sans-serif; 
     Font style: Bold;
     font-size: 18px;
     Line height: 2;
@@ -255,7 +248,6 @@ Letter-spacing: 3%;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-style: normal;
-    Font family: "Roboto", sans-serif; 
     font-size: 14px;
     line-height: 1.71;
 /* or 171% */
