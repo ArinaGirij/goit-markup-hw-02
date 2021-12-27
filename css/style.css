@@ -164,15 +164,22 @@ letter-spacing: 0.03em;
 button:focus{
   color: #2196f3;
 }
-.button.primary {
+.button-primary {
   background-color: var(--bgc);
   color: var(--accent-color);
   cursor: pointer;
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
 }
 
-.button.primary:hover,
-.button.primary:focus{
-  
+.button-primary:hover ,
+.button-primary:focus {
+ color: var(--title-text-color)
 }
 /* Footer WebStudio */
 
@@ -180,7 +187,7 @@ button:focus{
 background-color: var(--secondary-bgc);
 color: var(--body-bgc);
 font-style: normal;
-Font size: 14px
+Font-size: 14px
 }
 
 
