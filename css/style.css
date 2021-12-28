@@ -78,7 +78,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 }
 
-.section-name {
+.section-title {
    color:var(--body-bgc);
   font-size: 36px;
 }
