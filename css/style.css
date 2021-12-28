@@ -153,6 +153,10 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 }
+.button-index:hover,
+.button-index:focus{
+  color: var(--title-text-color);
+}
 
 .button {
 color: var(--title-text-color);
@@ -164,7 +168,10 @@ line-height:1.62;
 text-align: center;
 letter-spacing: 0.03em;
 }
-
+.button:hover,
+button:focus{
+  color: var(--bgc);
+}
 
 .button-primary {
 background-color: var(--bgc);
@@ -176,7 +183,10 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 }
-
+.button-primary:hover,
+.button-primary:focus{
+  color: var(--title-text-color)
+}
 
 
 /* Footer WebStudio */
