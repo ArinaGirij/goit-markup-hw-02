@@ -66,39 +66,61 @@ text-decoration: none;
   color: #2196f3;
 }
 
-.hero-title {
-  background-color: var(--secondary-bgc);
-  color: var(--body-bgc);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  /* or 136% */
-
-  text-align: center;
-  letter-spacing: 0.06em;
+.hero {
+background-color: var(--secondary-bgc);
+color: var(--body-bgc);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.5;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
-.section-title {
+
+.section-name {
    color:var(--body-bgc);
   font-size: 36px;
 }
 
-.work-title {
-  color: var(--title-text-color);
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
 /* Feature-list */
-.feature-list .title {
-  font-weight: 700;
-  font-size: 36px;
+
+.feature-title {
   color: var(--title-text-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 
-.team-title {
+.feature-text{
+color: var(--primary-text-color);
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+.work-title {
+color: var(--title-text-color);
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.team-title{
+color: var(--title-text-color);
+font-family: Roboto;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+.team-name {
 color: var(--title-text-color);
 font-weight: 500;
 font-size: 16px;
@@ -114,7 +136,6 @@ letter-spacing: 0.03em;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
 }
 
@@ -127,7 +148,6 @@ cursor: pointer;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.87;
-/* identical to box height, or 187% */
 display: flex;
 align-items: center;
 text-align: center;
@@ -141,7 +161,6 @@ cursor: pointer;
 font-weight: 500;
 font-size: 16px;
 line-height:1.62;
-/* identical to box height, or 162% */
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -154,8 +173,6 @@ cursor: pointer;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
-/* identical to box height, or 162% */
-
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -178,14 +195,13 @@ Font-size: 14px
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
 }
 
 .footer-nav{
   color:var(--accent-color);
 text-decoration: none;
+font-style: normal;
 Font-size: 14px;
 Line-height: 1.71;
 Align: Left;
@@ -234,6 +250,7 @@ Letter-spacing: 3%;
   .adress{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none; 
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
 /* or 171% */
